@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# AdamAnSubtractM's Eslint & Prettier Setup
+# AdamAnSubtractM's Eslint & Prettier Setup with SolidJS Support
 
 First things first, lets give credit where credit is due
 
@@ -15,8 +15,7 @@ First things first, lets give credit where credit is due
 - Lints JavaScript & Typesript based on the latest standards
 - Fixes issues and formatting errors with Prettier
 - Lints + Fixes inside of html script tags
-- Lints + Fixes React via eslint-config-airbnb
-- You can see all the [rules here](https://github.com/adamansubtractm/eslint-config-adamansubtractm/blob/master/.eslintrc.js) - these generally abide by the code written in my courses. You are very welcome to overwrite any of these settings, or just fork the entire thing to create your own.
+- You can see all the [rules here](https://github.com/adamansubtractm/eslint-config-solid-adamansubtractm/blob/master/.eslintrc.js) - these generally abide by the code written in my courses. You are very welcome to overwrite any of these settings, or just fork the entire thing to create your own.
 
 ## Installing
 
@@ -59,7 +58,7 @@ I also install globally so that any project or rogue JS file I write will have l
 3.  It's time to install the eslint config:
 
 ```bash
-  pnpm i eslint-config-adamansubtractm --save-dev
+  pnpm i eslint-config-solid-adamansubtractm --save-dev
 ```
 
 4.  You can see in your package.json there are now a big list of devDependencies.
@@ -189,11 +188,11 @@ Same instructions as above, just make sure you extend `adamansubtractm/typescrip
 
 ## With Yarn
 
-It should just work, but if they aren't showing up in your package.json, try `npx install-peerdeps --dev eslint-config-adamansubtractm -Y`
+It should just work, but if they aren't showing up in your package.json, try `npx install-peerdeps --dev eslint-config-solid-adamansubtractm -Y`
 
 ## Issues with ESLint not formatting code
 
-If you experience issues with ESLint not formatting the code or you receive a `Parsing error: Cannot find module '@babel/preset-react` error message then you need to check that you opened the folder where you installed and configured ESLint directly in VS Code. The correct folder to open will be the one where you installed the `eslint-config-adamansubtractm` npm package and where you created the `.eslintrc` file.
+If you experience issues with ESLint not formatting the code error message then you need to check that you opened the folder where you installed and configured ESLint directly in VS Code. The correct folder to open will be the one where you installed the `eslint-config-solid-adamansubtractm` npm package and where you created the `.eslintrc` file.
 
 Opening a parent folder or child folder in your code editor will cause ESLint to fail in finding the ESLint npm packages and the formatting won't work.
 
