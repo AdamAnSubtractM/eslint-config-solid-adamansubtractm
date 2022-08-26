@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-solid-adamansubtractm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ESLint and Prettier Config with Typescript and SolidJS support from @AdamAnSubtractM.",
   "keywords": [
     "javascript",
