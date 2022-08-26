@@ -4,9 +4,9 @@ module.exports = {
   },
   extends: [
     'plugin:@typescript-eslint/recommended', // Uses rules from `@typescript-eslint/eslint-plugin`,
-    'plugin:solid/typescript',
     'airbnb-typescript',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
+    'plugin:solid/typescript',
     // Layer in all the JS Rules
     './.eslintrc.js',
   ],

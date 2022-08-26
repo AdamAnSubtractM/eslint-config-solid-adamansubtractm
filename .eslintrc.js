@@ -4,11 +4,7 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: [
-    'plugin:solid/recommended',
-    'airbnb',
-    'prettier',
-  ],
+  extends: ['airbnb-base', 'plugin:solid/recommended', 'prettier'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
@@ -17,12 +13,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: [
-    'html',
-    'prettier',
-    'solid',
-    '@typescript-eslint',
-  ],
+  plugins: ['html', 'prettier', 'solid', '@typescript-eslint'],
   settings: {
     'import/extensions': [
       '.js',
