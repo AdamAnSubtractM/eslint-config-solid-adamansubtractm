@@ -54,11 +54,6 @@ module.exports = {
         argsIgnorePattern: 'res|next|^err',
       },
     ],
-    // allow jsx to be used is jsx, tsx and mdx files
-    'react/jsx-filename-extension': [
-      'warn',
-      { extensions: ['.tsx', '.jsx', '.mdx'] },
-    ],
     // allow files to be imported without the extension being included
     'import/extensions': ['error', 'never'],
     // checks for circal dependencies to a depth of 1
@@ -77,13 +72,6 @@ module.exports = {
     ],
     // allows you to add a anchor that isn't a valid link
     'jsx-a11y/href-no-hash': 'off',
-    // will warn you when your anchor tag isnt a valid href
-    'jsx-a11y/anchor-is-valid': [
-      'warn',
-      {
-        aspects: ['invalidHref'],
-      },
-    ],
     // warns if a debugger is left in the code
     'no-debugger': 'warn',
     // warns if you use an alert
@@ -139,13 +127,6 @@ module.exports = {
     'no-underscore-dangle': 'off',
     // allows you to have returns that don't return a value
     'consistent-return': 'off',
-    // ensures you either have an htmlFor on a label or you wrap it in a control
-    'jsx-a11y/label-has-associated-control': [
-      'error',
-      {
-        assert: 'either',
-      },
-    ],
     // allows you to omit the second argument to parseInt a.k.a the radix
     radix: 'off',
     // doesn't allow shadow variables to be declared
@@ -168,6 +149,7 @@ module.exports = {
         allowTemplateLiterals: true,
       },
     ],
+    'react/jsx-filename-extension': 'off',
     'prettier/prettier': [
       'error',
       {
