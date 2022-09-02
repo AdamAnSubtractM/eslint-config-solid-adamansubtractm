@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://adamknee.dev">
-    <img alt="Adam Knee's Logo" src="https://res.cloudinary.com/adamknee/image/upload/v1661364626/github/logo-w-banner_dzncvs.svg" width="2000" />
+    <img alt="Adam Knee's Logo" src="https://res.cloudinary.com/adamansubtractm/image/upload/r_20/v1662130192/github/logo-w-banner-blue_raujqx.svg" width="2000" />
   </a>
 </p>
 
